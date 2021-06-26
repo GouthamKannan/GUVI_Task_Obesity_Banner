@@ -1,0 +1,228 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.fas{
+    color: black;
+}
+
+.banner-background{
+    background-color: rgb(30, 50, 60);
+    margin: 0 25%;
+    padding: 60px;
+}
+
+.banner-header{
+    margin: 0 20%;
+}
+
+.banner-icon-border{
+    position: relative;
+    border: 4px solid white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    /* left: 37%; */
+    top: 35px;
+}
+
+.banner-icon-background{
+    position: absolute;
+    background-color: rgb(47, 143, 253);
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    left: 3.5px;
+    top: 3.5px;
+}
+
+.icons{
+    position: absolute;
+    top: 17px;
+    left: 10px;
+}
+
+.banner-header-h1{
+    font-size: 4rem;
+    font-weight: 800;
+    color: rgb(241, 57, 57);
+    position: absolute;
+    margin: 0;
+    left: 44%;
+    top: 70px;
+}
+
+.banner-header-p{
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    color: white;
+    padding-left: 5px;
+    left: 44%;
+    top: 150px;
+}
+
+table,tbody,tr,td{
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+table{
+    width: 100%;
+}
+
+.left-col{
+    padding: 5%;
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+
+.right-col{
+    padding: 5%;
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+
+.section-two{
+    margin-top: 100px;
+    line-height: 1.5;
+}
+
+.section-two h1,.section-five h1, .section-six h1, .section-seven h1,.section-eight h1{
+    font-size: 3rem;
+    font-weight:900;
+}
+
+.section-two h2,.section-eight h2{
+    font-weight:900;
+}
+
+.section-two-left{
+    background-color: orange;
+}
+
+.section-two-right{
+    background-color: rgb(59, 182, 231);
+}
+
+.red_child{
+    color: rgb(241, 57, 57);
+}
+
+.single-col{
+    padding: 5%;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.section-three{
+    background-color:rgb(241, 57, 57);
+    margin-top: 6%;
+}
+
+.grid-container-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-container-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 2fr;
+}
+
+.section-three-p{
+    padding-top: 3%;
+    text-align: left;
+    line-height: 1.3;
+}
+
+.section-four{
+    background-color: rgb(59, 182, 231);
+    margin-top: 6%;
+}
+
+.section-four-left{
+    text-align: left;
+    padding-right: 2%;
+}
+
+.section-four-right{
+    text-align: left;
+    padding-left: 2%;
+}
+
+.section-four-left h2{
+    display: inline;
+    padding-right: 5%;
+}
+
+.section-four p{
+    margin: 16px 0px 0px;
+    line-height: 1.3;
+}
+
+.section-five,.section-six,.section-seven,.section-eight{
+    margin-top: 6%;
+    line-height: 1.3;
+}
+
+.section-five-left,.section-eight-right{
+    background-color: rgb(241, 57, 57);
+}
+
+.section-five-right{
+    background-color: orange;
+}
+
+.french-fry{
+    color: orange;
+    padding-top: 5%;
+}
+
+.juice{
+   color: rgb(241, 57, 57);
+   padding-bottom: 5%;
+}
+
+.section-six,.section-eight-left{
+    background-color: rgb(59, 182, 231);
+}
+
+.grid-container-3{
+    text-align: left;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.fa-tv{
+    text-align: right;
+    margin: 20% 20% 0 0;
+}
+
+.section-seven{
+    background-color: orange;
+}
+
+.fa-biking{
+    text-align: right;
+    margin-top: 20%;
+    color: rgb(241, 57, 57);
+}
+
+.section-eight-right p{
+    padding: 5px 0px;
+}
+
+.section-eight-right h2{
+    padding-bottom: 16px;
+}
+
+.fa-dollar-sign{
+    padding-bottom: 20px;
+}
